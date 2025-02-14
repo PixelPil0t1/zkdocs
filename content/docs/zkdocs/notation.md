@@ -28,7 +28,7 @@ This page is a glossary for notation and concepts present in the documentation.
 ## Number-theory
  - $J(w, n)\in \\{-1, 0, 1\\}$ is the [Jacobi symbol](https://en.wikipedia.org/wiki/Jacobi_symbol) of $w$ modulo $n$, only defined for positive and odd $n$.
  - $J_n$ is the set of elements of $\zns{n}$ with Jacobi symbol $1$.
- - $QR_n$ is the set of quadratic residues modulo $n$, which are elements that have a square-root, i.e., $QR_n = \\{e \in \z{n} : \exists r . r^2 = e \mod n\\}$.
+ - $QR_n$ is the set of quadratic residues modulo $n$, which are elements that have a square root, i.e., $QR_n = \\{e \in \z{n} : \exists r . r^2 = e \mod n\\}$.
 
 ## Sampling
 In protocol specifications, we will often need to uniformly sample elements from sets. We will use the following notation:
@@ -47,6 +47,6 @@ In general, we highly recommend the [Handbook of Applied Cryptography](https://c
 
 ## Hash Functions
  - $\hash{\cdot}$ is a cryptographically secure domain-separated hash function.
- - $\hashbit{\cdot}{k}$ is a cryptographically secure domain-separated hash function with specific output-size of $k$-bits.
+ - $\hashbit{\cdot}{k}$ is a cryptographically secure domain-separated hash function with specific output size of $k$-bits.
 
 Find more details on the particular hash functions in [Nothing-up-my-sleeve constructions]({{< relref "/docs/zkdocs/protocol-primitives/nums#hash-function-choice" >}})
